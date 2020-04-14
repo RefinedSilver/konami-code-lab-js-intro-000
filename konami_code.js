@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   document.body.addEventListener("keydown", (event) => {
-    // Now, how can we check for which specific key was pressed?
+    console.log(e.key)
     if (event.defaultPrevented) {
       return; // Do nothing if event already handled Have to understand this.
     }
