@@ -37,5 +37,5 @@ function init() {
       case "b": // Handle 'b' button
       break;
     }
-  });
+  }, true);
 }
