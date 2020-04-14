@@ -31,10 +31,10 @@ function init() {
     	case "ArrowRight": // Handle "left arrow"
     	break;
       case "KeyG":
-      case "a":
+      case "a": // Handle 'a' button
       break;
       case "KeyH":
-      case "b":
+      case "b": // Handle 'b' button
       break;
     }
   });
