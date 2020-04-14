@@ -38,6 +38,9 @@ function init() {
     	// Handle "turn right"
     	/*angle += turnRate;*/
     	break;
+      case "KeyG":
+      case "a":
+      break;
     }
   });
 }
