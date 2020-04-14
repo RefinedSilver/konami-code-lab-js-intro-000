@@ -21,34 +21,14 @@ function init() {
       count++;
       if(count === codes.length) {
         alert("Hurray!");
+
+        count = 0;
       }
     } else {
       count = 0;
     }
-    // switch(event.code) {
-    // 	case "KeyA":
-    // 	case "ArrowUp": // Handle "up arrow"
-    // 	break;
-    // 	case "KeyS":
-    // 	case "ArrowDown": // Handle "down arrow"
-    // 	break;
-    // 	case "KeyD":
-    // 	case "ArrowLeft": // Handle "left arrow"
-    // 	break;
-    // 	case "KeyF":
-    // 	case "ArrowRight": // Handle "left arrow"
-    // 	break;
-    //   case "KeyG":
-    //   case "a": // Handle 'a' button
-    //   break;
-      // case "KeyH":
-    //   case "b": // Handle 'b' button
-    //   break;
-    // }
-    // Consume the event so it doesn't get handled twice
-    event.preventDefault();
 
-  }, false);
+  });
 }
 
 init();
