@@ -14,7 +14,7 @@ const codes = [
 function init() {
   let count = 0;
   document.body.addEventListener("keydown", (event) => {
-    console.log(event.key)
+    // console.log(event.key)
 
     if (event.key === codes[count]) {
       console.log(codes[count])
