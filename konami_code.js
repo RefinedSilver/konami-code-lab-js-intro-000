@@ -17,6 +17,7 @@ function init() {
     console.log(event.key)
 
     if (event.key === codes[count]) {
+      console.log(codes[count])
       count++
     } else {
       count = 0;
