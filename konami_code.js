@@ -41,6 +41,9 @@ function init() {
       case "KeyG":
       case "a":
       break;
+      case "KeyH":
+      case "b":
+      break;
     }
   });
 }
