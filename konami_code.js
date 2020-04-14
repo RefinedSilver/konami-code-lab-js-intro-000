@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   document.body.addEventListener("keydown", (event) => {
-    console.log(e.key)
+    console.log(event.key)
     if (event.defaultPrevented) {
       return; // Do nothing if event already handled Have to understand this.
     }
