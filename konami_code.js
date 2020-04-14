@@ -19,8 +19,8 @@ function init() {
     }
     switch(event.code) {
     	case "KeyA":
-    	case "ArrowUp": // Handle "up arrow" 
-    	
+    	case "ArrowUp": // Handle "up arrow"
+
 
     	break;
     	case "KeyS":
