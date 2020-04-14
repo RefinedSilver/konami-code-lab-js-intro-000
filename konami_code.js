@@ -37,6 +37,9 @@ function init() {
       case "b": // Handle 'b' button
       break;
     }
+    // Consume the event so it doesn't get handled twice
+    event.preventDefault();
+    
   }, true);
 }
 
