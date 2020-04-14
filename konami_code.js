@@ -24,19 +24,13 @@ function init() {
     	// updatePosition(-moveRate);
     	break;
     	case "KeyS":
-    	case "ArrowDown":
-    	// Handle "forward"
-    	// updatePosition(moveRate);
+    	case "ArrowDown": // Handle "down arrow"
     	break;
     	case "KeyD":
-    	case "ArrowLeft":
-    	// Handle "turn left"
-    	/*angle -= turnRate;*/
+    	case "ArrowLeft": // Handle "left arrow"
     	break;
     	case "KeyF":
-    	case "ArrowRight":
-    	// Handle "turn right"
-    	/*angle += turnRate;*/
+    	case "ArrowRight": // Handle "left arrow"
     	break;
       case "KeyG":
       case "a":
