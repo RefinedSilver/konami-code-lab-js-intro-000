@@ -19,9 +19,9 @@ function init() {
     }
     switch(event.code) {
     	case "KeyA":
-    	case "ArrowUp":
-    	// Handle "back"
-    	// updatePosition(-moveRate);
+    	case "ArrowUp": // Handle "up arrow" 
+    	
+
     	break;
     	case "KeyS":
     	case "ArrowDown": // Handle "down arrow"
