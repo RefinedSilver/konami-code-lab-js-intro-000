@@ -39,7 +39,7 @@ function init() {
     }
     // Consume the event so it doesn't get handled twice
     event.preventDefault();
-    
+
   }, true);
 }
 
