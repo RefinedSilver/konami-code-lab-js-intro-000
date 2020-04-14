@@ -17,8 +17,11 @@ function init() {
     // console.log(event.key)
 
     if (event.key === codes[count]) {
-      console.log(codes[count])
-      count++
+      // console.log(codes[count])
+      count++;
+      if(count === codes.length) {
+        alert("Hurray!");
+      }
     } else {
       count = 0;
     }
